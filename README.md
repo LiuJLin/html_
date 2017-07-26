@@ -55,3 +55,42 @@
 * <figure\> 图片  
 
 详见**fenzu.html** 文件，打开浏览器运行看效果。
+### 4.表格
+一个表格基本的构成：
+```html
+<table border="1" style="width:300px">
+    <tbody>
+        <tr>
+            <td>LiuJLin</td>
+            <td>female</td>
+        </tr>
+        <tr>
+            <td>wengangdan</td>
+            <td>female</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr style="background:red;">
+            <td colspan="3">统计: 共2人 </td>
+        </tr>
+    </tfoot>
+    <thead>
+        <tr>
+            <th>姓名</th>
+            <th>性别</th>
+        </tr>
+    </thead>
+    <!-- <colgroup style="background:yellow" span="1"></colgroup>
+    <colgroup style="background:green" span="1"></colgroup> -->
+    <colgroup>
+        <col >
+        <col style="background:yellow">
+    </colgroup>
+
+</table>
+```
+其中设置某列的属性，选择方式有两种，都包含在以上代码段中（注释掉的以及未注释掉的）。
+### 文档元素
+实际效果不明显，主要作用是**在页面布局时区分各个主体和概念**（且需要在css的配合使用下）
+布局如下所示：  
+![](https://github.com/LiuJLin/html_/blob/master/resource/readme_2.png)
