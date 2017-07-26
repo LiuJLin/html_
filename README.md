@@ -13,7 +13,7 @@
     </body>
 </html>
 ```
-其中，body中是显示在页面中的内容，这个例子的显示如下图所示：
+其中，body中是显示在页面中的内容，这个例子的显示如下图所示：  
 ![链接到百度](https://github.com/LiuJLin/html_/blob/master/resource/readme_1.png)
 ### 2.超链接与路径
 ##### 外部网站链接
