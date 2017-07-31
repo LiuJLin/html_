@@ -14,7 +14,8 @@
 </html>
 ```
 其中，body中是显示在页面中的内容，这个例子的显示如下图所示：  
-![链接到百度](https://github.com/LiuJLin/html_/blob/master/resource/readme_1.png)
+![链接到百
+度](https://github.com/LiuJLin/html_/blob/master/resource/readme_1.png)
 ### 2.超链接与路径
 ##### 外部网站链接
 上面示例中
@@ -94,3 +95,6 @@
 实际效果不明显，主要作用是**在页面布局时区分各个主体和概念**（且需要在css的配合使用下）
 布局如下所示：  
 ![](https://github.com/LiuJLin/html_/blob/master/resource/readme_2.png)
+### 音频与视频
+##### 容器
+音频文件或视频文件，都是一个容器文件
